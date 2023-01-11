@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 .container {
     max-width: 1440px;
     margin-left: auto;
@@ -13,8 +12,6 @@
     background: rgb(200,168,187);
     background: linear-gradient(135deg, rgba(200,168,187,1) 0%, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 0%, rgba(255,241,225,1) 31%, rgba(255,227,219,1) 45%, rgba(255,247,247,1) 100%); 
 }
-
-
 
 .main-header {
     display: flex;
@@ -39,7 +36,6 @@
 }
 
 .hero-box-main-info {
-    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -65,6 +61,7 @@
     position: relative;
     font-family: 'Signika Negative', sans-serif;
 }
+
 .secondary-get-start-button {
     background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
     box-shadow: 0px 20px 40px rgb(128 143 150 / 19%);
@@ -95,6 +92,7 @@
     margin: 0;
     font-family: 'Signika Negative', sans-serif;
 }
+
 .page-description {
     display: flex;
     flex-wrap: wrap;
@@ -141,7 +139,6 @@ a.menu-link {
 a.register {
     color: white;
     text-decoration: none;
-    /* background-color: green; */
     letter-spacing: 1px;
     padding: 13px 15px;
     border-radius: 3px;
@@ -208,7 +205,6 @@ img.card-image {
     padding: 5px;
     box-shadow: 0px 3px 3px lightgrey;
 }
-
 
 .card-title {
     font-size: 24px;
@@ -359,7 +355,6 @@ img.facts-image {
     padding-left: 100px;
 }
 
-
 .feedback-content {
     padding-left: 100px;
     padding-right: 100px;
@@ -392,7 +387,6 @@ img.facts-image {
     color: #647B64;
     font-family: 'Signika Negative', sans-serif;
 }
-
 
 .feedback-item-list {
     display: flex;
@@ -448,7 +442,6 @@ img.facts-image {
     padding: 0px 27px;
 }
 
-
 .container-footer {
     max-width: 1440px;
     margin-left: auto;
@@ -475,6 +468,7 @@ img.facts-image {
     margin: 5px;
     gap: 10px;
 }
+
 .footer-logo {
     height: 35px;
     width: 48px;
@@ -570,7 +564,6 @@ img.facts-image {
     margin: 5px;
 }
 
-
 .support-title {
     color: #647B64;
     font-size: 20px;
@@ -594,7 +587,6 @@ img.facts-image {
     display: flex;
     flex-direction: column;
     width: 35%;
-    /* padding: 50px 20px 50px 20px; */
     padding: 50px 100px 50px 100px;
 }
 
